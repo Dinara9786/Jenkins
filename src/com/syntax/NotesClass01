@@ -30,4 +30,15 @@ we may need to look all of the newly added code.
 
 * * * * *  = 5 stars with spaces means = go and check at git if any new commit and build that code
 
+=====================
 
+How to build a simple job
+Login to the Jenkins
+http://jenkins.syntaxtechs.net:8080/
+username admin
+password admin
+click on new item
+give it a name
+clici on free sylte project
+click on apply sae
+click on git past the URL
