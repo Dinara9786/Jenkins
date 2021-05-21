@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 	// write your code here
 
-        for (int i=0; i<7; i++) {
-            System.out.println("Hello Testingn Job");
+        for (int i=0; i<8; i++) {
+            System.out.println("Hello Testing Job");
 
             Thread.sleep(2000);
 
