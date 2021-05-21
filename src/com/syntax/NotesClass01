@@ -1,23 +1,24 @@
+
 Jenkins Class 01, March 06, 2021
 
 what are servers and why we need them:
-1. Stay pwer on all the time()
-2. Strong internet connection (in GBps) all teh time
-3. A lot of resource liek RAM Disk etc
+1. Stay power on all the time()
+2. Strong internet connection (in GBps) all the time
+3. A lot of resource like RAM Disk etc
 
 =====================================================
 
 There should some mechanism to put our codes to our computers and then deploying to servers.
 
 1. Developers will develop the code
-2. Runs the unit tests if everything goes well ask the DevOps guy person to buil that code
+2. Runs the unit tests if everything goes well ask the DevOps guy person to build that code
    and deploy the code on Dev servers
 3. Developer verifies that code on Dev server.
 4. Request to DevOps person to deploy it on the integration server.
 5. Tester will ask DevOps person to deploy the code to QA server
 6. Tester may ask again DevOps person deploy it on the Performance server, Security testing
 servers
-7. DevOps person deploy applciation on Staging servers (replica of production server) UAT server on which UAT is perfromed.
+7. DevOps person deploy application on Staging servers (replica of production server) UAT server on which UAT is perfromed.
 8. To production server
 
 ====================================================================
@@ -32,13 +33,24 @@ we may need to look all of the newly added code.
 
 =====================
 
-How to build a simple job
+How to build a simple job:
+
 Login to the Jenkins
 http://jenkins.syntaxtechs.net:8080/
 username admin
 password admin
 click on new item
 give it a name
-clici on free sylte project
-click on apply sae
+click on free style project
+click on apply and save
+scroll down to the page and click on build steps
+write echo "any message"
+click on save and build the project
+
 click on git past the URL
+
+to practice Jenkins
+https://www.youtube.com/watch?v=89yWXXIOisk&list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG
+ YouTube | Automation Step by Step - Raghav Pal
+Jenkins Beginner Tutorial 1 - Introduction and Getting Started
+
