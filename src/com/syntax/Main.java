@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
 
         for (int i=0; i<7; i++) {
-            System.out.println("Hello Batch 8");
+            System.out.println("Hello Testingn Job");
 
             Thread.sleep(2000);
 

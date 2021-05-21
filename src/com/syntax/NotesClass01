@@ -29,7 +29,11 @@ Issues in the annual Testing/deployment
 we may need to look all of the newly added code.
 3. No Automation means a lot of manual effort.
 
-* * * * *  = 5 stars with spaces means = go and check at git if any new commit and build that code
+hwo to google: how to schedule jenkins everyday
+
+Cron-compliant format
+
+* * * * *  = 5 stars with spaces means = go and check at git if threr is any new commit and build that code
 
 =====================
 
